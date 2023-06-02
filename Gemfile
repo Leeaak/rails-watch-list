@@ -72,3 +72,4 @@ gem 'rspec-rails', group: [ :test ]
 gem 'rails-controller-testing', group: [ :test ]
 gem 'bootstrap', '~> 5.3.0.alpha3'
 gem "dotenv-rails", groups: [:development, :test]
+gem "cloudinary"
