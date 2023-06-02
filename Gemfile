@@ -10,7 +10,8 @@ gem "rails", "~> 7.0.2", ">= 7.0.2.3"
 gem "sprockets-rails"
 
 # Use postgresql as the database for Active Record
-gem "pg", "~> 1.1"
+# gem "pg", "~> 1.1"
+gem "pg"
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
@@ -69,3 +70,4 @@ end
 
 gem 'rspec-rails', group: [ :test ]
 gem 'rails-controller-testing', group: [ :test ]
+gem 'bootstrap', '~> 5.3.0.alpha3'
